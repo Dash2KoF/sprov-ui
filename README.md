@@ -3,6 +3,15 @@
 - 一个支持多协议多用户的 v2ray Web 面板
 - /***转载***/
 
+# 一键安装&升级面板
+
+> 请务必使用 root 用户运行！
+
+```
+wget -O /usr/bin/sprov-ui -N --no-check-certificate https://github.com/Dash2KoF/sprov-ui/raw/master/sprov-ui.sh && chmod +x /usr/bin/sprov-ui && sprov-ui
+
+```
+
 # 详细教程
 
 https://blog.sprov.xyz/2019/02/09/sprov-ui/
@@ -57,16 +66,6 @@ apt-get install sudo
 安装yum
 apt-get install yum
 
-# 一键安装&升级面板
-
-> 以下两条命令皆可，两者是一样的，只需要运行一个，如果其中一个有错误，可以运行另外一个。
-
-> 请务必使用 root 用户运行！
-
-```
-wget -O /usr/bin/sprov-ui -N --no-check-certificate https://github.com/Dash2KoF/sprov-ui/raw/master/sprov-ui.sh && chmod +x /usr/bin/sprov-ui && sprov-ui
-
-```
 
 # 常见问题
 
